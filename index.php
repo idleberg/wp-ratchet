@@ -6,7 +6,6 @@
  * @subpackage wp-ratchet
  * @since wp-ratchet 0.0.1
  */
-?>
 get_header(); ?>
 
 <!-- Make sure all your bars are the first things in your <body> -->
