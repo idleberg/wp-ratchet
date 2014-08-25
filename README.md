@@ -2,23 +2,23 @@
 
 ## Description
 
-Fully responsive and touch-driven Wordpress theme built upon the [Ratchet 2.0](http://goratchet.com/). This theme is meant to complement your desktop theme.
+Fully responsive and touch-driven WordPress theme built upon the [Ratchet 2.0](http://goratchet.com/). This theme is meant to complement your desktop theme.
 
-Not all features of a typical Wordpress theme are yet implemented, this is work in progress! 
+Not all features of a typical WordPress theme are yet implemented, this is work in progress! 
 
 ## Installation
 
 ### GitHub
 
-1. Change directory to Wordpress themes `cd wp-admin/themes`
+1. Change directory to WordPress themes `cd wp-admin/themes`
 2. Clone the repository `git clone https://github.com/idleberg/wp-ratchet.git`
-3. Activate theme in the Wordpress dashboard
+3. Activate theme in the WordPress dashboard
 
 ### Manual download
 
 1. Download the files using the GitHub .zip download option
-2. Unzip the files to your Wordpress themes directory
-3. Activate theme in the Wordpress dashboard
+2. Unzip the files to your WordPress themes directory
+3. Activate theme in the WordPress dashboard
 
 ## Customization
 
