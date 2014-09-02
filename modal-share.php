@@ -14,11 +14,13 @@
     <h1 class="title"><?php _e('Sharing Buttons'); ?></h1>
   </header>
 
-  <div class="content content-padded">
-    <p>Share this post with your friends on popular social networking sites or by mail</p>
-    <a href="https://twitter.com/intent/tweet?text=<?php urlencode(the_title()); ?>&amp;url=<?php the_permalink(); ?>" class="btn btn-block">Twitter</a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" class="btn btn-block">Facebook</a>
-    <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="btn btn-block">Google+</a>
-    <a href="mailto:?subject=<?php urlencode(the_title()); ?>&amp;body=<?php urlencode(the_excerpt()); the_permalink(); ?>" class="btn btn-block">Mail</a>
+  <div class="content">
+    <div class="content-padded">
+      <p>Share this post with your friends on popular social networking sites or by mail</p>
+      <a href="https://twitter.com/intent/tweet?text=<?php urlencode(the_title()); ?>&amp;url=<?php the_permalink(); ?>" class="btn btn-block">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" class="btn btn-block">Facebook</a>
+      <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="btn btn-block">Google+</a>
+      <a href="mailto:?subject=<?php urlencode(the_title()); ?>&amp;body=<?php urlencode(the_excerpt()); the_permalink(); ?>" class="btn btn-block">Mail</a>
+    </div>
   </div>
 </div>

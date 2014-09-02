@@ -14,11 +14,14 @@
     <h1 class="title"><?php _e('Comment') ?></h1>
   </header>
 
-  <div class="content content-padded">
-    <form>
-      <input type="text" placeholder="<?php _e('Full name') ?>">
-      <input type="text" placeholder="<?php _e('Email (required)'); ?>">
-      <textarea rows="5"></textarea>
-      <button class="btn btn-positive btn-block"><?php _e('Submit') ?></button>
-    </form>
+  <div class="content">
+    <div class="content-padded">
+      <form>
+        <input type="text" placeholder="<?php _e('Full name') ?>">
+        <input type="text" placeholder="<?php _e('Email (required)'); ?>">
+        <textarea rows="5"></textarea>
+        <button class="btn btn-positive btn-block"><?php _e('Submit') ?></button>
+      </form>
+    </div>
+  </div>
 </div>
